@@ -1,4 +1,4 @@
-# iEscolheAp2 🍽️
+# iEscolheAP2 🍽️
 
 Sobre o Projeto:
 
