@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane stylesheets="@css/global.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.controllerTelas.TelaLoginController">
+   <center>
+      <VBox alignment="CENTER" fillWidth="false" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="277.0" fitWidth="279.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/logo.png" />
+               </image>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </ImageView>
+            <VBox>
+               <children>
+                  <Label text="Usuário:" textFill="WHITE">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="campoUsuario" prefHeight="30.0" prefWidth="360.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font></TextField>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </VBox>
+            <VBox>
+               <children>
+                  <Label text="Senha:" textFill="WHITE">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <PasswordField fx:id="campoSenha" prefHeight="30.0" prefWidth="360.0">
+                     <font>
+                        <Font size="16.0" />
+                     </font></PasswordField>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </VBox>
+            <Label fx:id="alerta" alignment="TOP_CENTER" textFill="#ffe99b">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="5.0" />
+               </VBox.margin>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#botaoEntrarLogin" prefHeight="36.0" prefWidth="117.0" text="ENTRAR" textFill="RED">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="5.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button ellipsisString=".." mnemonicParsing="false" onAction="#botaoCriarConta" style="-fx-background-color: transparent;" text="Não possui uma conta? Cadastre-se agora!" textFill="#ffe99b" underline="true">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
