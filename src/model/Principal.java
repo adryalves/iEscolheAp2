@@ -18,10 +18,11 @@ public class Principal extends Application {
     public void start(Stage palco) throws Exception {
         root = FXMLLoader.load(getClass().getResource("/view/TelaInicial.fxml"));
         Scene scene = new Scene(root);
-        Principal.palco.setScene(scene);
-        Principal.palco.setResizable(false);
         Principal.palco.setTitle("iEscolhe");
         Principal.palco.getIcons().add(new Image("/view/images/logo-vermelha.png"));
+        Principal.palco.setScene(scene);
+        Principal.palco.setResizable(false);
+        Principal.palco.sizeToScene();
         Principal.palco.centerOnScreen();
         Principal.palco.show();
     }

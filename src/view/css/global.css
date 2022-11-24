@@ -11,6 +11,10 @@
 BorderPane {
     -fx-pref-width: 905;
     -fx-pref-height: 634;
+    -fx-min-width: 905;
+    -fx-min-height: 634;
+    -fx-max-width: 905;
+    -fx-max-height: 634;
     -fx-background-color: #ff1d05;
     -fx-padding: 0 10 0 10;
 }
