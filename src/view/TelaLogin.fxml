@@ -30,7 +30,7 @@
                         <Font size="30.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="campoUsuario" prefHeight="30.0" prefWidth="360.0">
+                  <TextField fx:id="campoUsuario" onKeyPressed="#enter" prefHeight="30.0" prefWidth="360.0">
                      <font>
                         <Font size="16.0" />
                      </font></TextField>
@@ -46,7 +46,7 @@
                         <Font size="30.0" />
                      </font>
                   </Label>
-                  <PasswordField fx:id="campoSenha" prefHeight="30.0" prefWidth="360.0">
+                  <PasswordField fx:id="campoSenha" onKeyPressed="#enter" prefHeight="30.0" prefWidth="360.0">
                      <font>
                         <Font size="16.0" />
                      </font></PasswordField>

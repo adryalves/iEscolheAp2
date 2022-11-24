@@ -13,6 +13,8 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonType;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 
 public class TelaCadastroController implements Initializable {
 
@@ -20,6 +22,12 @@ public class TelaCadastroController implements Initializable {
     private Label alerta;
     @FXML
     private TextField campoNome, campoUsuario, campoSenha;
+
+    @FXML
+    public void enter(KeyEvent event) {
+        if (event.getCode().equals(KeyCode.ENTER))
+            botaoFinalizarCadastro();
+    }
 
     @FXML
     public void botaoFinalizarCadastro() {

@@ -34,7 +34,7 @@
                         <Insets />
                      </VBox.margin>
                   </Label>
-                  <TextField fx:id="campoNome" prefHeight="30.0" prefWidth="363.0">
+                  <TextField fx:id="campoNome" onKeyPressed="#enter" prefHeight="30.0" prefWidth="363.0">
                      <VBox.margin>
                         <Insets />
                      </VBox.margin>
@@ -57,7 +57,7 @@
                         <Insets />
                      </VBox.margin>
                   </Label>
-                  <TextField fx:id="campoUsuario" prefHeight="30.0" prefWidth="363.0">
+                  <TextField fx:id="campoUsuario" onKeyPressed="#enter" prefHeight="30.0" prefWidth="363.0">
                      <VBox.margin>
                         <Insets />
                      </VBox.margin>
@@ -77,7 +77,7 @@
                         <Insets />
                      </VBox.margin>
                   </Label>
-                  <PasswordField fx:id="campoSenha" prefHeight="30.0" prefWidth="363.0">
+                  <PasswordField fx:id="campoSenha" onKeyPressed="#enter" prefHeight="30.0" prefWidth="363.0">
                      <VBox.margin>
                         <Insets />
                      </VBox.margin>

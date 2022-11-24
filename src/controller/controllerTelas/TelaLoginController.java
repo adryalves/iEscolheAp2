@@ -12,6 +12,8 @@ import javafx.fxml.Initializable;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
 
 public class TelaLoginController implements Initializable {
 
@@ -19,6 +21,12 @@ public class TelaLoginController implements Initializable {
     private Label alerta;
     @FXML
     private TextField campoNome, campoUsuario, campoSenha;
+
+    @FXML
+    public void enter(KeyEvent event) {
+        if (event.getCode().equals(KeyCode.ENTER))
+            botaoEntrarLogin();
+    }
 
     @FXML
     public void botaoEntrarLogin() {
