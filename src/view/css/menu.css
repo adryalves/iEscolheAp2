@@ -1,0 +1,31 @@
+.cafe-da-manha {   
+    -fx-background-image: url('../images/cafe-da-manha.jpg');   
+    -fx-background-repeat: no-repeat;      
+    -fx-background-size: 400 250;   
+    -fx-background-position: center center; 
+} 
+
+.almoco-jantar {   
+    -fx-background-image: url('../images/almoco-janta.png');   
+    -fx-background-repeat: no-repeat;      
+    -fx-background-size: 250 400;   
+    -fx-background-position: center center; 
+}  
+
+.sobremesa {   
+    -fx-background-image: url('../images/sobremesa.jpg');  
+     -fx-background-repeat: no-repeat;      
+     -fx-background-size: cover;   
+     -fx-background-size: 400 250;   
+     -fx-background-position: center center; 
+}
+
+@font-face {
+    font-family: 'Gloucester MT Extra Condensed';
+    src: url('../fonts/gloucester.ttf');
+}
+
+.iescolhe {
+    -fx-font-family: 'Gloucester MT Extra Condensed';
+    -fx-font-size: 90 !important;
+}

@@ -1,0 +1,49 @@
+.nomeReceita, .avaliacao{
+    -fx-text-fill: #ffe99b; 
+    -fx-font-size: 22; 
+    -fx-font-weight: bold;
+}
+
+.nomeReceita{
+    -fx-pref-width: 784;
+}
+
+.avaliacao{
+    -fx-min-width: 60;
+}
+
+.ingredientes {
+  -fx-font-size: 17; 
+  -fx-background-color: #ffffff; 
+  -fx-pref-width: 778; 
+  -fx-alignment: top-left;
+  -fx-padding: 5 10 5 10;
+}
+
+.botaoReceita {
+  -fx-background-color: #ff1d05;
+  -fx-cursor: hand;
+}
+
+.botaoReceita:hover {
+  -fx-opacity: 0.95;
+}
+
+.vbox {
+  -fx-background-color: transparent;
+  -fx-spacing: 10;
+}
+
+.hbox {
+  -fx-pref-width: 784;
+}
+
+.tela {
+  -fx-pref-width: 905;
+  -fx-pref-height: 634;
+  -fx-background-color: #ff1d05;
+}
+
+.cabecalho {
+  -fx-padding: 0 10 0 10;
+}

@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Gloucester MT Extra Condensed';
+    src: url('../fonts/gloucester.ttf');
+}
+
+.iescolhe {
+    -fx-font-family: 'Gloucester MT Extra Condensed';
+    -fx-font-size: 115;
+}
+
+BorderPane {
+    -fx-pref-width: 905;
+    -fx-pref-height: 634;
+    -fx-background-color: #ff1d05;
+    -fx-padding: 0 10 0 10;
+}
