@@ -1,12 +1,12 @@
-# IEscolheAp2
+# iEscolheAp2 🍽️
 
 Sobre o Projeto:
 
-Projeto realizado para a disciplina de Ap2 feito por alunos do 2° semestre do curso de Ciência da Computação da Universidade Estadual do Sudoeste da Bahia. O programa funciona como um sugestor de receitas, no qual o usuário seleciona os ingredientes que possui em casa e o programa retorna receitas que o usuário pode fazer com esses ingredientes.
+Projeto realizado para a disciplina de Algoritmos e Programação II, feito por alunos da turma 2021.1 do curso de Ciência da Computação da Universidade Estadual do Sudoeste da Bahia. O programa funciona como um sugestor de receitas, no qual o usuário seleciona os ingredientes que possui em casa e o programa retorna refeições que o usuário pode fazer com esses ingredientes.
 
 Objetivo:
 
-O IEscolhe tem como objetivo criar um programa que ajude as pessoas a terem uma alimentação mais focada em comidas caseiras oa invés de industrializados, com o propósito de permitir ao usuário ter uma alimentação mais saudável e consequentemente uma vida melhor!
+O iEscolhe tem como objetivo criar um programa que ajude as pessoas a terem uma alimentação mais focada em comidas caseiras ao invés de industrializados, com o propósito de permitir ao usuário ter uma alimentação mais saudável e, consequentemente, uma vida melhor!
 
 Telas do projeto: 
 
