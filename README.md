@@ -2,7 +2,7 @@
 
 Sobre o Projeto:
 
-Projeto realizado para a disciplina de Algoritmos e Programação II, feito por alunos da turma 2021.1 do curso de Ciência da Computação da Universidade Estadual do Sudoeste da Bahia. O programa funciona como um sugestor de receitas, no qual o usuário seleciona os ingredientes que possui em casa e o programa retorna refeições que o usuário pode fazer com esses ingredientes.
+Projeto realizado para a disciplina de Algoritmos e Programação II, feito por alunos da turma 2021.1 do curso de Ciência da Computação da Universidade Estadual do Sudoeste da Bahia. O programa funciona como um sugestor de receitas, no qual o usuário seleciona os ingredientes que possui em casa e o programa retorna refeições que o usuário pode fazer com esses ingredientes. 
 
 Objetivo:
 
