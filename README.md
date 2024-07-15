@@ -1,6 +1,5 @@
 # iEscolheAP2 🍽️
-<<<<<<< HEAD
--Refatoração projeto ap2
+- Refatoração projeto ap2
 Sobre o Projeto: 
 =======
 
